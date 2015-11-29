@@ -1,0 +1,23 @@
+* {box-sizing: border-box}
+header {width: 100%;position: fixed;opacity: 0.9;-webkit-box-shadow:0 3px 3px -2px #888;box-shadow:0 3px 3px -2px #888;background: #fff;z-index: 8888;}
+.inner {margin:0 auto;max-width: 1024px;padding: 10px 5%}
+.logo {text-decoration: none;color: #222;font-weight: 600;font-size: 2em;line-height: 1.5em}
+nav > ul {float: right}
+nav > ul > li {float: left;text-align: center; margin-left: 2em;list-style-type: none}
+nav > ul > li > a {cursor: pointer;display: block;outline: none;width: 100%;text-decoration: none}
+nav a {color:#222}
+nav a:hover{color:#39f}
+nav ul li.current a {border-bottom-style: solid}
+[type="checkbox"], label.navnav { display: none}
+@media screen and (max-width: 768px) {
+nav a {font-size:150%}
+nav ul {display: none}
+nav > ul {background: #fff;z-index: 8888}
+label.navnav {color: #222;float:right;display: inline-block;cursor: pointer;font: normal 32px/1 'Genericons';line-height: 1.5em}
+label.navnav:before {display: inline-block;content: "\f419"}
+[type="checkbox"]:checked ~ ul { display: block; z-index: 9999; position: relative}
+[type="checkbox"]:checked ~ label.navnav:after { display: inline-block;content: "\f406"}
+[type="checkbox"]:checked ~ label.navnav:before { display: none;content: "\f419"}
+nav ul li {display: inline-block;width: 95%;line-height: 3em}
+nav > ul > li {text-align: right;margin: 0 auto}
+}
