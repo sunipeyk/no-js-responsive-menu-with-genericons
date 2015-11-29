@@ -1,0 +1,12 @@
+<header>
+<div class="inner">
+<nav id="navmain" itemscope itemtype="http://schema.org/SiteNavigationElement">
+<a class="logo" href="/">MainPage</a>
+<input type="checkbox" id="nav" /><label class="navnav" for="nav"></label>
+<ul ontouchstart="">
+<li><a itemprop="url" href="/link1">Link1</a></li>       
+<li><a itemprop="url" href="/link2">Link2</a></li>
+<li><a itemprop="url" href="/link3">Link3</a></li>
+<li><a itemprop="url" href="/Link4">Link4</a></li>
+</ul></nav></div>
+</header>  
